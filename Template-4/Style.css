@@ -1,0 +1,769 @@
+
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    span {
+      float: left;
+      color: white;
+      margin-top: 2%;
+      margin-left: 2%;
+      font-size: 22px;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+
+    .bg-image {
+
+      background-image: url(img/hero-bg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      width: 100%;
+      height: 740px;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container-1 {
+      float: right;
+      margin-top: 2%;
+      margin-right: 2%;
+
+    }
+
+    .inside {
+      margin: 25px;
+      color: #fff;
+      text-decoration: none;
+      font-size: 15px;
+      border-bottom: 3px solid rgb(255, 41, 83);
+      padding-bottom: 5px;
+    }
+
+    .container-1 a {
+      margin: 25px;
+      color: #fff;
+      font-size: 15px;
+      text-decoration: none;
+    }
+
+    .container-1 a:hover {
+      padding-bottom: 5px;
+      border-bottom: 3px solid rgb(255, 41, 83);
+    }
+
+    .main-1 {
+      text-align: center;
+      padding-top: 13%;
+      color: #fff;
+
+    }
+
+    .main-1 h3 {
+      font-size: 26px;
+      font-weight: 800;
+      padding-bottom: 8px;
+    }
+
+    .main-1 h2 {
+      font-size: 38px;
+      font-weight: 800;
+      padding-bottom: 8px;
+    }
+
+    .main-1 h1 {
+      font-size: 56px;
+      font-weight: 800;
+      padding-bottom: 20px;
+      letter-spacing: 5px;
+    }
+
+    .main-1 p {
+      width: 55%;
+      font-size: 16px;
+      padding-bottom: 40px;
+      line-height: 25px;
+      margin-inline-start: 25%;
+    }
+
+    .button-1 {
+      background-color: transparent;
+      color: #fff;
+      border: 1px solid #fff;
+      font-size: 16px;
+      width: 180px;
+      height: 43px;
+    }
+
+    .button-1:hover {
+      background: #fff;
+      color: black;
+      border: 1px solid #fff;
+    }
+
+    .bg-image-1 {
+      background-image: url(img/us-bg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      width: 100%;
+      height: 600px;
+    }
+
+    .bg-image-1 h2 {
+      text-align: center;
+      color: #fff;
+      font-size: 29px;
+      font-weight: 800;
+      padding-top: 9%;
+      position: relative;
+    }
+
+    .bg-image-1 h2::after {
+      content: "";
+      position: absolute;
+      bottom: -4px;
+      margin-top: 10px;
+      margin-left: -170px;
+      width: 49px;
+      height: 5px;
+      background-color: rgb(255, 41, 83);
+    }
+
+    .main-2 {
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding-top: 5%;
+      width: 100%;
+    }
+
+    .main-2 h5 {
+      font-size: 19px;
+      font-weight: 800;
+      margin-top: 3%;
+    }
+
+    .main-2 p {
+      width: 200px;
+      margin-top: 3%;
+      font-size: 17px;
+      line-height: 23px;
+      position: relative;
+      left: 40px;
+    }
+
+    .content-1 {
+      width: 280px;
+
+    }
+
+    .bg-image-2 {
+      background-image: url(img/healthy-bg.jpg);
+      width: 100%;
+      height: 500px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+
+    .main-3 {
+      color: #fff;
+      text-align: center;
+      padding-top: 120px;
+    }
+
+    .main-3 h2 {
+      font-size: 27px;
+      font-weight: 800;
+    }
+
+    .main-3 p {
+      margin-top: 40px;
+      font-size: 17px;
+      width: 69%;
+      position: relative;
+      left: 240px;
+
+    }
+
+    .button-2 {
+      background-color: transparent;
+      color: #fff;
+      border: 1px solid #fff;
+      font-size: 16px;
+      width: 150px;
+      height: 40px;
+      margin-top: 50px;
+    }
+
+    .button-2:hover {
+      background: #fff;
+      color: black;
+      border: 1px solid #fff;
+    }
+
+    .bg-image-3 {
+      background-image: url(img/trainer-bg.jpg);
+      width: 100%;
+      height: 1600px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+
+    .bg-image-3 h2 {
+      color: #fff;
+      text-align: center;
+      font-size: 28px;
+      font-weight: 800;
+      padding-top: 100px;
+      position: relative;
+    }
+
+    .bg-image-3 h2::after {
+      content: ' ';
+      position: absolute;
+      bottom: 0px;
+      left: 720px;
+      width: 60px;
+      height: 5px;
+      background-color: rgb(255, 41, 83);
+    }
+
+    .container-3 {
+      display: flex;
+      text-align: center;
+      margin-top: 100px;
+      justify-content: space-around;
+      margin: 100px 150px;
+
+    }
+
+    .daba-1 h5 {
+      margin-bottom: 15px;
+      color: #fff;
+      font-size: 20px;
+      font-weight: 700;
+    }
+
+    .daba-img {
+      border-radius: 20px;
+    }
+
+    .img-content {
+      width: 220px;
+      height: 50px;
+      border-radius: 100px;
+      background-color: #fff;
+      position: relative;
+      left: 70px;
+      bottom: 30px;
+    }
+
+    .img-content img {
+      margin: 10px 10px;
+
+    }
+
+    .main-box {
+      display: flex;
+    }
+
+    .bg-image-4 {
+      background-image: url(img/contact-img.jpg);
+      width: 50%;
+      height: 790px;
+
+    }
+
+    .box-2 {
+      width: 50%;
+      height: 790px;
+      background-color: rgb(39, 34, 63);
+      padding-top: 150px;
+      padding-left: 30px;
+    }
+
+    .box-2 input {
+      margin-top: 25px;
+      width: 550px;
+      height: 50px;
+    }
+
+    .box-2-content {
+      width: 550px;
+      height: 120px !important;
+    }
+
+    .box-2 input::placeholder {
+
+      color: black;
+      font-size: 16px;
+    }
+
+    .box-2 input {
+
+      color: black;
+      font-size: 16px;
+    }
+
+    .box-2 p {
+      color: #fff;
+      font-size: 32px;
+      font-weight: 800;
+      padding-bottom: 10px;
+      position: relative;
+    }
+
+    .box-2 p::after {
+      content: ' ';
+      position: absolute;
+      top: 45px;
+      left: 0px;
+      width: 55px;
+      height: 5px;
+      bottom: 0p;
+      background-color: rgb(255, 41, 83);
+    }
+
+    .button-3 {
+      background-color: rgb(255, 41, 83);
+      color: #fff;
+      border: 1px solid rgb(255, 41, 83);
+      font-size: 16px;
+      width: 160px;
+      height: 40px;
+      margin-top: 50px;
+      position: relative;
+      left: 390px;
+    }
+
+    .button-3:hover {
+      background: transparent;
+    }
+
+    .main-4 {
+      width: 100%;
+      height: 200px;
+      background-color: rgb(37, 34, 51);
+      display: flex;
+      padding-top: 50px;
+      color: #fff;
+      padding-left: 100px;
+    }
+
+    .one {
+      margin-top: 50px;
+      margin-left: 350px;
+    }
+
+    .one p {
+      position: relative;
+      top: 20px;
+      right: 15px;
+      font-size: 18px;
+    }
+
+    .two {
+      margin-top: 50px;
+      margin-left: 240px;
+    }
+
+    .two p {
+      position: relative;
+      top: 30px;
+      right: 40px;
+      font-size: 17px;
+    }
+
+    .three {
+      margin-top: 50px;
+      margin-left: 200px;
+    }
+
+    .three p {
+      position: relative;
+      top: 30px;
+      right: 40px;
+      font-size: 18px;
+    }
+
+
+    @media only screen and (max-width: 1260px) {
+      .daba-img {
+        width: 300px;
+        height: 300px;
+      }
+
+      .box-2 input {
+        margin-top: 25px;
+        width: 450px;
+      }
+
+      .main-3 p {
+        width: 69%;
+        position: relative;
+        left: 190px;
+
+      }
+
+      .button-3 {
+        position: relative;
+        left: 290px;
+      }
+
+      .main-4 {
+        padding-top: 10px;
+      }
+
+      .one {
+        margin-left: 150px;
+      }
+
+      .two {
+        margin-left: 280px;
+      }
+    }
+
+    @media only screen and (max-width: 1055px) {
+      .daba-img {
+        width: 250px;
+        height: 250px;
+      }
+
+      .main-3 p {
+        width: 69%;
+        position: relative;
+        left: 150px;
+      }
+
+      .one {
+        margin-left: 100px;
+      }
+
+      .two {
+        margin-left: 200px;
+      }
+
+      .three {
+        margin-left: 150px;
+      }
+
+      .img-content {
+        width: 160px;
+        height: 38px;
+        position: relative;
+        left: 40px;
+        bottom: 20px;
+      }
+
+      .img-content img {
+        margin: 8px 8px;
+
+      }
+
+      .bg-image-3 h2::after {
+        display: none;
+      }
+    }
+
+    @media only screen and (max-width: 960px) {
+      .box-2 input {
+        margin-top: 25px;
+        width: 350px;
+      }
+
+      .button-3 {
+        position: relative;
+        left: 190px;
+      }
+
+      .bg-image-1 {
+        background-image: url(img/us-bg.jpg);
+        width: 100%;
+        height: auto;
+      }
+
+      .main-2 {
+        display: flex;
+        flex-direction: column !important;
+        justify-content: last baseline;
+      }
+
+      .container-3 {
+        flex-direction: column;
+        margin-top: 100px;
+        margin: 100px 150px;
+      }
+
+      .bg-image-3 {
+        width: 100%;
+        height: auto;
+      }
+
+      .img-content {
+        width: 200px;
+        height: 40px;
+        position: relative;
+        left: 215px;
+        bottom: 20px;
+      }
+
+      .bg-image-3 h2::after {
+        display: none;
+      }
+    }
+
+    @media only screen and (max-width: 825px) {
+      .main-box {
+        flex-direction: column;
+      }
+
+      .bg-image-4 {
+        background-image: url(img/contact-img.jpg);
+        width: auto;
+        height: 790px;
+
+      }
+
+      .box-2 {
+        width: 100%;
+      }
+
+      .button-3 {
+        position: relative;
+        left: 520px;
+      }
+
+      .main-4 {
+        width: 100%;
+        height: 450px;
+        flex-direction: column;
+        padding-left: 100px;
+      }
+
+      .one {
+        margin-top: 50px;
+        margin-left: 290px;
+      }
+
+      .one p {
+        position: relative;
+        margin: auto;
+      }
+
+      .two {
+        margin-top: 70px;
+        margin-left: 290px;
+      }
+
+      .two p {
+        position: relative;
+        margin: auto;
+      }
+
+      .three {
+        margin-top: 70px;
+        margin-left: 290px;
+      }
+
+      .three p {
+        position: relative;
+        margin: auto;
+      }
+
+      .img-content {
+        width: 160px;
+        height: 38px;
+        right: 5px;
+        bottom: 20px;
+      }
+
+      .bg-image-3 h2::after {
+        display: none;
+      }
+
+      .box-2 input {
+        width: 680px;
+        height: 50px;
+      }
+    }
+
+    @media only screen and (max-width: 710px) {
+      .box-2 input {
+        width: 500px;
+        height: 50px;
+      }
+
+      .button-3 {
+        position: relative;
+        left: 320px;
+      }
+    }
+
+    @media only screen and (max-width: 576px) {
+      .bg-image-1 {
+        width: 100%;
+        height: auto;
+      }
+
+      .main-2 {
+
+        flex-direction: column !important;
+
+      }
+
+      .bg-image-2 {
+        width: 100%;
+        height: auto;
+      }
+
+      .bg-image-3 h2::after {
+        display: none;
+      }
+
+      .box-2 input {
+        width: 480px;
+        height: 50px;
+      }
+
+      .button-3 {
+        position: relative;
+        left: 320px;
+      }
+
+      .one {
+        margin-top: 50px;
+        margin-left: 200px;
+      }
+
+      .one p {
+        position: relative;
+        right: 10px;
+      }
+
+      .two {
+        margin-top: 70px;
+        margin-left: 200px;
+      }
+
+      .two p {
+        position: relative;
+        right: 40px;
+      }
+
+      .three {
+        margin-top: 70px;
+        margin-left: 200px;
+      }
+
+      .three p {
+        position: relative;
+        right: 40px;
+      }
+
+      .main-3 p {
+        width: 69%;
+        position: relative;
+        left: 100px;
+      }
+
+      .img-content {
+        position: relative;
+        left: 50px;
+      }
+
+      .container-1 {
+        margin-right: 1px;
+      }
+
+      span {
+        margin-left: 42%;
+      }
+
+      .inside {
+        margin: 15px;
+      }
+
+      .container-1 a {
+        margin: 15px;
+      }
+    }
+
+    @media only screen and (max-width: 515px) {
+      .box-2 input {
+        width: 300px;
+        height: 50px;
+      }
+
+      .button-3 {
+        position: relative;
+        left: 150px;
+      }
+
+      .one {
+        margin-top: 50px;
+        margin-left: 100px;
+      }
+
+      .one p {
+        position: relative;
+        right: 10px;
+      }
+
+      .two {
+        margin-top: 70px;
+        margin-left: 100px;
+      }
+
+      .two p {
+        position: relative;
+        right: 40px;
+      }
+
+      .three {
+        margin-top: 70px;
+        margin-left: 100px;
+      }
+
+      .three p {
+        position: relative;
+        right: 40px;
+      }
+
+      .container-3 {
+        margin: 100px 10px;
+
+      }
+
+      .img-content {
+        position: relative;
+        left: 110px;
+      }
+
+      .main-3 p {
+        width: 69%;
+        position: relative;
+        left: 70px;
+      }
+
+      .inside {
+        margin: 10px;
+      }
+
+      .container-1 a {
+        margin: 10px;
+      }
+    }
+  
